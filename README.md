@@ -20,7 +20,7 @@ Liste os subdomínios do sistema e classifique-os como **Core Domain**, **Suppor
 
 | **Subdomínio**              | **Descrição**                                                                                      | **Tipo**         |
 |-----------------------------|--------------------------------------------------------------------------------------------------|------------------|
-| Gestão de Aluguéis          | Gerencia o pedido de aluguel e os perfis dos locatários.                                         | Core Domain      |
+| Gestão de Aluguéis          | Gerencia os pedidos de aluguel e os perfis dos locatários.                                         | Core Domain      |
 | Cadastro de Usuários        | Gerencia o login, cadastro e permissões dos locatários e anunciantes.                            | Supporting       |
 | Pagamentos                  | Processa pagamentos e repassa valores para os anunciantes.                                       | Generic          |
 
@@ -31,7 +31,7 @@ Liste e descreva os bounded contexts identificados no projeto. Explique a respon
 
 | **Bounded Context**           | **Responsabilidade**                                                                                 | **Subdomínios Relacionados** |
 |-------------------------------|-----------------------------------------------------------------------------------------------------|-----------------------------|
-| Ex.: Contexto de Consultas    | Gerencia as consultas médicas, do agendamento à finalização, incluindo emissão de receitas.         | Gestão de Consultas         |
+| Ex.: Contexto de Aluguel    | Gerencia as consultas médicas, do agendamento à finalização, incluindo emissão de receitas.         | Gestão de Consultas         |
 | Ex.: Contexto de Pagamentos   | Processa cobranças de consultas e repasses para médicos ou clínicas.                              | Pagamentos                  |
 
 ---
