@@ -6,13 +6,12 @@ Identificar os subdomínios do projeto, classificá-los (Core, Supporting, Gener
 ---
 
 ## 1. Nome do Projeto
-**[Escreva o nome do sistema ou aplicação que está sendo modelado]**
+RentalFacil
 
 ---
 
 ## 2. Objetivo Principal do Projeto
-**[Explique o propósito do sistema em uma ou duas frases]**  
-*Exemplo:* Facilitar o agendamento de consultas médicas online entre pacientes e médicos.
+Facilitar o aluguel de produtos e serviços diversos.
 
 ---
 
@@ -21,9 +20,9 @@ Liste os subdomínios do sistema e classifique-os como **Core Domain**, **Suppor
 
 | **Subdomínio**              | **Descrição**                                                                                      | **Tipo**         |
 |-----------------------------|--------------------------------------------------------------------------------------------------|------------------|
-| Ex.: Gestão de Consultas    | Gerencia o agendamento, consulta por vídeo e emissão de atestados e receitas.                   | Core Domain      |
-| Ex.: Cadastro de Usuários   | Gerencia o login, cadastro e permissões dos médicos e pacientes.                                | Supporting       |
-| Ex.: Pagamentos             | Processa pagamentos e repassa valores para médicos.                                             | Generic          |
+| Gestão de Aluguéis          | Gerencia o pedido de aluguel e os perfis dos locatários.                                         | Core Domain      |
+| Cadastro de Usuários        | Gerencia o login, cadastro e permissões dos locatários e anunciantes.                            | Supporting       |
+| Pagamentos                  | Processa pagamentos e repassa valores para os anunciantes.                                       | Generic          |
 
 ---
 
