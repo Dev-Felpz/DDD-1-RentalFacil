@@ -21,7 +21,7 @@ Liste os subdomínios do sistema e classifique-os como **Core Domain**, **Suppor
 | **Subdomínio**              | **Descrição**                                                                                      | **Tipo**         |
 |-----------------------------|--------------------------------------------------------------------------------------------------|------------------|
 | Gestão de Aluguéis          | Gerencia os pedidos de aluguel e os perfis dos locatários.                                         | Core Domain      |
-| Cadastro de Usuários        | Gerencia o login, cadastro e permissões dos locatários e anunciantes.                            | Supporting       |
+| Cadastro de Usuários        | Gerencia o login, cadastro e permissões dos locatários e locatores.                            | Supporting       |
 | Pagamentos                  | Processa pagamentos e repassa valores para os anunciantes.                                       | Generic          |
 
 ---
@@ -31,7 +31,7 @@ Liste e descreva os bounded contexts identificados no projeto. Explique a respon
 
 | **Bounded Context**           | **Responsabilidade**                                                                                 | **Subdomínios Relacionados** |
 |-------------------------------|-----------------------------------------------------------------------------------------------------|-----------------------------|
-| Ex.: Contexto de Aluguel    | Gerencia os pedidos de aluguel, os perfis dos locatários e anunciantes.         | Gestão de Aluguéis         |
+| Ex.: Contexto de Aluguel    | Gerencia os pedidos de aluguel, os perfis dos locatários e locatores.         | Gestão de Aluguéis         |
 | Ex.: Contexto de Pagamentos   | Processa cobranças de aluguel.                              | Pagamentos                  |
 
 ---
@@ -43,8 +43,8 @@ Explique como os bounded contexts vão se comunicar. Use os padrões de comunica
 
 | **De (Origem)**              | **Para (Destino)**          | **Forma de Comunicação**    | **Exemplo de Evento/Chamada**                  |
 |------------------------------|-----------------------------|-----------------------------|-----------------------------------------------|
-| Contexto de Consultas        | Contexto de Pagamentos      | Mensageria (Evento)         | "Consulta Finalizada"                         |
-| Contexto de Cadastro          | Contexto de Consultas      | API                         | Obter informações de um Paciente pelo ID      |
+| Contexto de Aluguéis        | Contexto de Pagamentos      | Mensageria (Evento)         | "Aluguel solicitado."                        |
+| Contexto de Cadastro          | Contexto de Aluguéis      | API                         | Obter informações de um locator pelo ID      |
 
 ---
 
@@ -53,9 +53,9 @@ Liste os termos principais da Linguagem Ubíqua do projeto. Explique brevemente 
 
 | **Termo**                    | **Descrição**                                                                                   |
 |------------------------------|-----------------------------------------------------------------------------------------------|
-| Ex.: Consulta                | Sessão médica entre paciente e médico.                                                       |
-| Ex.: Paciente                | Usuário que agenda e realiza consultas.                                                      |
-| Ex.: Receita                 | Prescrição médica gerada durante a consulta.                                                 |
+| Ex.: Locatario                | Usuario que procura pelo item para alugar.                                                    |
+| Ex.: Item                | produto ou serviço anunciado.                                                      |
+| Ex.: Locador                 |  Quem faz a oferta do item.                                                |
 
 ---
 
