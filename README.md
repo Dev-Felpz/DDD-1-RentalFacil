@@ -53,9 +53,9 @@ Liste os termos principais da Linguagem Ubíqua do projeto. Explique brevemente 
 
 | **Termo**                    | **Descrição**                                                                                   |
 |------------------------------|-----------------------------------------------------------------------------------------------|
-| Ex.: Locatario                | Usuario que procura pelo item para alugar.                                                    |
-| Ex.: Item                | produto ou serviço anunciado.                                                      |
-| Ex.: Locador                 |  Quem faz a oferta do item.                                                |
+| Ex.: Locatario                | Usuário que procura pelo item para alugar.                                                    |
+| Ex.: Item                | Produto ou serviço anunciado.                                                      |
+| Ex.: Locador                 |  Usuário faz a oferta do item.                                                |
 
 ---
 
