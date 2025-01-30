@@ -31,8 +31,8 @@ Liste e descreva os bounded contexts identificados no projeto. Explique a respon
 
 | **Bounded Context**           | **Responsabilidade**                                                                                 | **Subdomínios Relacionados** |
 |-------------------------------|-----------------------------------------------------------------------------------------------------|-----------------------------|
-| Ex.: Contexto de Aluguel    | Gerencia as consultas médicas, do agendamento à finalização, incluindo emissão de receitas.         | Gestão de Consultas         |
-| Ex.: Contexto de Pagamentos   | Processa cobranças de consultas e repasses para médicos ou clínicas.                              | Pagamentos                  |
+| Ex.: Contexto de Aluguel    | Gerencia os pedidos de aluguel, os perfis dos locatários e anunciantes.         | Gestão de Aluguéis         |
+| Ex.: Contexto de Pagamentos   | Processa cobranças de aluguel.                              | Pagamentos                  |
 
 ---
 
