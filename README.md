@@ -67,7 +67,7 @@ Para cada tipo de subdomínio, explique a abordagem para implementação:
 
 | **Subdomínio**              | **Estratégia**                         | **Ferramentas ou Serviços (se aplicável)** |
 |-----------------------------|---------------------------------------|-------------------------------------------|
-| Gestão de Consultas         | Desenvolvimento interno               |                                           |
+| Gestão de Aluguéis         | Desenvolvimento interno               |                                           |
 | Cadastro de Usuários        | Interno com uso de Auth0 para login   | Auth0                                     |
 | Pagamentos                  | Terceirizar usando API Stripe         | Stripe                                    |
 
