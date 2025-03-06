@@ -31,8 +31,8 @@ Liste e descreva os bounded contexts identificados no projeto. Explique a respon
 
 | **Bounded Context**           | **Responsabilidade**                                                                                 | **Subdomínios Relacionados** |
 |-------------------------------|-----------------------------------------------------------------------------------------------------|-----------------------------|
-| Ex.: Contexto de Aluguel    | Gerencia os pedidos de aluguel, os perfis dos locatários e locadores.         | Gestão de Aluguéis         |
-| Ex.: Contexto de Pagamentos   | Processa cobranças de aluguel.                              | Pagamentos                  |
+| Contexto de Aluguel    | Gerencia os pedidos de aluguel, os perfis dos locatários e locadores.         | Gestão de Aluguéis         |
+| Contexto de Pagamentos   | Processa cobranças de aluguel.                              | Pagamentos                  |
 
 ---
 
